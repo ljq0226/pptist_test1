@@ -1,6 +1,4 @@
-/* eslint-disable max-lines */
-
-import { Slide } from '@/types/slides'
+import type { Slide } from '@/types/slides'
 
 export const layouts: Slide[] = [
   {
@@ -18,7 +16,7 @@ export const layouts: Slide[] = [
         fill: '{{themeColor}}',
         fixedRatio: false,
         opacity: 0.7,
-        rotate: 0
+        rotate: 0,
       },
       {
         type: 'shape',
@@ -32,7 +30,7 @@ export const layouts: Slide[] = [
         fill: '{{themeColor}}',
         fixedRatio: false,
         flipV: true,
-        rotate: 0
+        rotate: 0,
       },
       {
         type: 'text',
@@ -46,7 +44,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        wordSpace: 6
+        wordSpace: 6,
       },
       {
         type: 'text',
@@ -93,7 +91,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }, 
+      },
       {
         type: 'text',
         id: 'mRHvQN',
@@ -105,7 +103,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }, 
+      },
       {
         type: 'line',
         id: '7CQDwc',
@@ -116,8 +114,8 @@ export const layouts: Slide[] = [
         points: ['', ''],
         color: '{{themeColor}}',
         style: 'solid',
-        width: 4
-      }, 
+        width: 4,
+      },
       {
         type: 'shape',
         id: '09wqWw',
@@ -129,8 +127,8 @@ export const layouts: Slide[] = [
         path: 'M 0 20 C 40 -40 60 60 100 20 C 140 -40 160 60 200 20 L 200 180 C 140 240 160 140 100 180 C 40 240 60 140 0 180 L 0 20 Z',
         fill: '{{themeColor}}',
         fixedRatio: false,
-        rotate: 0
-      }
+        rotate: 0,
+      },
     ],
     background: {
       type: 'solid',
@@ -151,8 +149,8 @@ export const layouts: Slide[] = [
         path: 'M 0 0 L 200 0 L 200 200 L 0 200 Z',
         fill: '{{themeColor}}',
         fixedRatio: false,
-        rotate: 0
-      }, 
+        rotate: 0,
+      },
       {
         type: 'shape',
         id: 'Mpwv7x',
@@ -165,8 +163,8 @@ export const layouts: Slide[] = [
         fill: '{{themeColor}}',
         fixedRatio: false,
         rotate: 0,
-        opacity: 0.7
-      }, 
+        opacity: 0.7,
+      },
       {
         type: 'text',
         id: 'WQOTAp',
@@ -178,8 +176,8 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        wordSpace: 5
-      }
+        wordSpace: 5,
+      },
     ],
     background: {
       type: 'solid',
@@ -200,7 +198,7 @@ export const layouts: Slide[] = [
         path: 'M 0 0 L 200 0 L 200 200 L 0 200 Z',
         fill: '{{themeColor}}',
         fixedRatio: false,
-        rotate: 0
+        rotate: 0,
       },
       {
         type: 'shape',
@@ -217,8 +215,8 @@ export const layouts: Slide[] = [
         outline: {
           width: 10,
           color: '{{backgroundColor}}',
-          style: 'solid'
-        }
+          style: 'solid',
+        },
       },
       {
         type: 'shape',
@@ -236,8 +234,8 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'font-size: 80px\'>01</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
+          align: 'middle',
+        },
       },
       {
         type: 'text',
@@ -263,8 +261,8 @@ export const layouts: Slide[] = [
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
         lineHeight: 2,
-        fill: '{{subColor}}'
-      }
+        fill: '{{subColor}}',
+      },
     ],
     background: {
       type: 'solid',
@@ -289,9 +287,9 @@ export const layouts: Slide[] = [
         outline: {
           width: 0,
           color: '{{backgroundColor}}',
-          style: 'solid'
-        }
-      }, 
+          style: 'solid',
+        },
+      },
       {
         type: 'shape',
         id: 'gDIWDH',
@@ -307,15 +305,15 @@ export const layouts: Slide[] = [
         outline: {
           width: 4,
           color: '{{backgroundColor}}',
-          style: 'solid'
+          style: 'solid',
         },
         text: {
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>1</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'shape',
         id: 'DUWT7E',
@@ -331,15 +329,15 @@ export const layouts: Slide[] = [
         outline: {
           width: 4,
           color: '{{backgroundColor}}',
-          style: 'solid'
+          style: 'solid',
         },
         text: {
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>4</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'shape',
         id: 'pbhn38',
@@ -355,15 +353,15 @@ export const layouts: Slide[] = [
         outline: {
           width: 4,
           color: '{{backgroundColor}}',
-          style: 'solid'
+          style: 'solid',
         },
         text: {
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>3</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'shape',
         id: 'CvMKrO',
@@ -379,15 +377,15 @@ export const layouts: Slide[] = [
         outline: {
           width: 4,
           color: '{{backgroundColor}}',
-          style: 'solid'
+          style: 'solid',
         },
         text: {
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>2</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: 'adudHB',
@@ -399,7 +397,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }, 
+      },
       {
         type: 'text',
         id: '9UpDwg',
@@ -411,7 +409,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }, 
+      },
       {
         type: 'text',
         id: 'GERdpB',
@@ -423,7 +421,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }, 
+      },
       {
         type: 'text',
         id: 'G5qoho',
@@ -435,7 +433,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }, 
+      },
       {
         type: 'shape',
         id: 'vdZcI6',
@@ -447,8 +445,8 @@ export const layouts: Slide[] = [
         path: 'M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z',
         fill: '{{backgroundColor}}',
         fixedRatio: false,
-        rotate: 0
-      }
+        rotate: 0,
+      },
     ],
     background: {
       type: 'solid',
@@ -474,8 +472,8 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'><span style=\'font-size: 60px\'>01</span></span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
+          align: 'middle',
+        },
       },
       {
         type: 'shape',
@@ -488,7 +486,7 @@ export const layouts: Slide[] = [
         path: 'M 100 0 A 50 50 0 1 1 100 200 A 50 50 0 1 1 100 0 Z',
         fill: '{{backgroundColor}}',
         fixedRatio: false,
-        rotate: 0
+        rotate: 0,
       },
       {
         type: 'text',
@@ -501,7 +499,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-      }
+      },
     ],
     background: {
       type: 'solid',
@@ -783,9 +781,9 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>1</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: 'YjzN1M',
@@ -797,8 +795,8 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        fill: '{{subColor}}'
-      }, 
+        fill: '{{subColor}}',
+      },
       {
         type: 'shape',
         id: 'fS09I7',
@@ -815,9 +813,9 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>2</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: 'qCnfB1',
@@ -829,7 +827,7 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        fill: '{{subColor}}'
+        fill: '{{subColor}}',
       },
       {
         type: 'shape',
@@ -847,9 +845,9 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>3</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: 'EUlvMo',
@@ -861,8 +859,8 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        fill: '{{subColor}}'
-      }, 
+        fill: '{{subColor}}',
+      },
       {
         type: 'shape',
         id: 'US_9jB',
@@ -879,9 +877,9 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>4</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: '243MnQ',
@@ -893,8 +891,8 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        fill: '{{subColor}}'
-      }, 
+        fill: '{{subColor}}',
+      },
       {
         type: 'shape',
         id: 'Y_KUj0',
@@ -911,9 +909,9 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>5</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: '9GglMe',
@@ -925,8 +923,8 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        fill: '{{subColor}}'
-      }, 
+        fill: '{{subColor}}',
+      },
       {
         type: 'shape',
         id: 'eSInje',
@@ -943,9 +941,9 @@ export const layouts: Slide[] = [
           content: '<p style=\'text-align: center;\'><span style=\'color: #ffffff;\'>6</span></p>',
           defaultFontName: '{{fontName}}',
           defaultColor: '{{fontColor}}',
-          align: 'middle'
-        }
-      }, 
+          align: 'middle',
+        },
+      },
       {
         type: 'text',
         id: '0S3yUg',
@@ -957,8 +955,8 @@ export const layouts: Slide[] = [
         rotate: 0,
         defaultFontName: '{{fontName}}',
         defaultColor: '{{fontColor}}',
-        fill: '{{subColor}}'
-      }
+        fill: '{{subColor}}',
+      },
     ],
     background: {
       type: 'solid',

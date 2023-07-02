@@ -3,8 +3,8 @@ import Editor from '@/views/Editor'
 
 export default function Home() {
   return (
-    <div className="">
-      <Editor/>
+    <div className="h-screen overflow-hidden">
+      <Editor />
     </div>
   )
 }

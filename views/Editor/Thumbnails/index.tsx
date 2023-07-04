@@ -9,9 +9,13 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 
+import { slides } from '@/mocks/slides'
+import ThumbnailSlide from '@/views/components/ThumbnailSlide'
+
 function Thumbnials() {
+  const mockData = slides
   return (
-    <div className='w-[250px]  flex flex-col'>
+    <div className='w-[250px] flex flex-col'>
       <div className="flex">
         <div className="flex-1 border cursor-pointer flex-center">
           <Plus size={16} />
@@ -36,7 +40,17 @@ function Thumbnials() {
       </div>
 
       {/* PPT缩略图 */}
-      <div className='overflow-y-scroll'>
+      <div className='h-full overflow-y-scroll'>
+        {
+          mockData.map((element, index) => {
+            return (
+              <>
+                {/* <ThumbnailSlide key={element.id} slide={element} size={120} /> */}
+              </>
+
+            )
+          })
+        }
 
       </div>
 
